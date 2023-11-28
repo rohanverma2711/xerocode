@@ -34,6 +34,7 @@ module.exports = {
       
 
         90:"22.5rem" /* 360px */,
+        18 :"4.5rem" /* 72px */,
         17.75: "4.375rem" /* 70px */,
         22.5: "5.625rem" /* 90px */,
         23: "5.75rem" /* 92px */,
@@ -115,6 +116,7 @@ module.exports = {
        */
       width: {
         25: "6.25rem",
+        18 :"4.5rem" /* 72px */,
         22.5: "5.625rem" /* 90px */,
         147: "39rem" /* 624px */,
         58: "14.5rem" /*232px */,
@@ -176,6 +178,7 @@ module.exports = {
         "4.5xl": "2.875rem" /* 46px */,
         "5.5xl": "3.5rem" /* 56px */,
         "6.1xl": "4rem" /* 64px */,
+
       },
 
       /** ------------------------------------------------------------
@@ -186,6 +189,7 @@ module.exports = {
        */
       lineHeight: {
         14: "3.5rem" /* 56px */,
+        15:"4rem" /* 60px */,
         17: "1.1rem" /*17.57*/,
         13: "3.1rem" /*51*/,
       },
@@ -238,7 +242,8 @@ module.exports = {
         xxlg: "30px",
         x:"1px",
         headerButton:"39px",
-        normal:"3px"
+        normal:"3px",
+        blueRegion:"35px"
 
 
       },
@@ -294,6 +299,15 @@ module.exports = {
         profileCard: "0px 4px 4px rgba(0, 0, 0, 0.25);",
         
           navShadow: '10px 10px 15px 0px #0000001A',
+          tileShadow: '0px 20px 80px 0px #00000008',
+          /* In your styles or CSS file */
+custom:
+  ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 25px 40px 0px rgba(0, 0, 0, 0.05)',
+  
+
+
+
+
       },
       /** ------------------------------------------------------------
        *
@@ -422,6 +436,8 @@ module.exports = {
        * ------------------------------------------------------------
        */
       colors: {
+        tileColortext:"#332C5C",
+        tileSubText:"#5E587A",
         headerButton:"#4192FF",
         navButton: "#0C5BC6",
         headerText : "#797979",

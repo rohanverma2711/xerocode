@@ -15,6 +15,24 @@ export const Resources = {
         logo2web:`${base}/logo2web.svg`,
         logo3web:`${base}/logo3web.svg`,
         logo4web:`${base}/logo4web.svg`,
+        screenImage:`${base}/screenImage.svg`,
+        without:`${base}/without.png`,
+        with:`${base}/with.png`,
+
+        infrastructure:`${base}/infrastructure.png`,
+        cybersecurity:`${base}/cyber-security.svg`,
+        development:`${base}/development.svg`,
+        nueral:`${base}/neural-network.svg`,
+
+
+        cardsScreen1 : `${base}/cardsScreen1.svg`,
+        cardsScreen2 : `${base}/cardsScreen2.svg`,
+        
+        
+
+        
+
+    
 
 
 
