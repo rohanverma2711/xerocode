@@ -1,11 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-     
       screens: {
         desktop: "1200px",
         xxsm: "350px",
@@ -31,10 +28,8 @@ module.exports = {
        * ------------------------------------------------------------
        */
       height: {
-      
-
-        90:"22.5rem" /* 360px */,
-        18 :"4.5rem" /* 72px */,
+        90: "22.5rem" /* 360px */,
+        18: "4.5rem" /* 72px */,
         17.75: "4.375rem" /* 70px */,
         22.5: "5.625rem" /* 90px */,
         23: "5.75rem" /* 92px */,
@@ -72,8 +67,8 @@ module.exports = {
         13: "3.25rem" /* 52px */,
         43.25: "10.8125rem" /* 173 */,
         16.5: "4.125rem" /*66px*/,
-        30:"7.5rem" /* 120px*/,
-        68:"17rem"/*272px*/
+        30: "7.5rem" /* 120px*/,
+        68: "17rem" /*272px*/,
       },
 
       maxHeight: {
@@ -116,11 +111,11 @@ module.exports = {
        */
       width: {
         25: "6.25rem",
-        18 :"4.5rem" /* 72px */,
+        18: "4.5rem" /* 72px */,
         22.5: "5.625rem" /* 90px */,
         147: "39rem" /* 624px */,
         58: "14.5rem" /*232px */,
-        45:"11.25rem"/*180px*/,
+        45: "11.25rem" /*180px*/,
         578: "578px",
         "1.5/12": "12.5%",
         "7/20": "35%",
@@ -143,9 +138,9 @@ module.exports = {
         "81/100": "81%",
         38: "9.5rem" /*152px*/,
         16.5: "4.125rem" /*66px*/,
-        120:"30rem" /* 480px */,
-        125:"31.25rem" /* 500px */,
-
+        120: "30rem" /* 480px */,
+        125: "31.25rem" /* 500px */,
+        100: "25rem" /*400*/,
       },
 
       /** ------------------------------------------------------------
@@ -178,7 +173,6 @@ module.exports = {
         "4.5xl": "2.875rem" /* 46px */,
         "5.5xl": "3.5rem" /* 56px */,
         "6.1xl": "4rem" /* 64px */,
-
       },
 
       /** ------------------------------------------------------------
@@ -189,9 +183,11 @@ module.exports = {
        */
       lineHeight: {
         14: "3.5rem" /* 56px */,
-        15:"4rem" /* 60px */,
+        15: "4rem" /* 60px */,
         17: "1.1rem" /*17.57*/,
         13: "3.1rem" /*51*/,
+        13.75: "3.4rem" /* 55px */,
+        11.25: "2.8125rem" /* 45px */,
       },
       /** ------------------------------------------------------------
        *
@@ -200,10 +196,10 @@ module.exports = {
        * ------------------------------------------------------------
        */
       fontFamily: {
-        'montserrat': ['Montserrat'],
-        'lato': ['Lato'],
-        'garamond': ['Garamond']
-    },
+        montserrat: ["Montserrat"],
+        lato: ["Lato"],
+        garamond: ["Garamond"],
+      },
       /** ------------------------------------------------------------
        *
        * Transition Property
@@ -240,12 +236,10 @@ module.exports = {
         xlg: "10px",
         "2.5xl": "20px",
         xxlg: "30px",
-        x:"1px",
-        headerButton:"39px",
-        normal:"3px",
-        blueRegion:"35px"
-
-
+        x: "1px",
+        headerButton: "39px",
+        normal: "3px",
+        blueRegion: "35px",
       },
       /** ------------------------------------------------------------
        *
@@ -297,17 +291,12 @@ module.exports = {
         c1: "0 2px 4px rgba(0, 0, 0, 0.5)",
         subscription: "0px 2px 18px rgba(130, 130, 130, 0.25)",
         profileCard: "0px 4px 4px rgba(0, 0, 0, 0.25);",
-        
-          navShadow: '10px 10px 15px 0px #0000001A',
-          tileShadow: '0px 20px 80px 0px #00000008',
-          /* In your styles or CSS file */
-custom:
-  ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 25px 40px 0px rgba(0, 0, 0, 0.05)',
-  
 
-
-
-
+        navShadow: "10px 10px 15px 0px #0000001A",
+        tileShadow: "0px 20px 80px 0px #00000008",
+        /* In your styles or CSS file */
+        custom:
+          " 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 25px 40px 0px rgba(0, 0, 0, 0.05)",
       },
       /** ------------------------------------------------------------
        *
@@ -436,26 +425,26 @@ custom:
        * ------------------------------------------------------------
        */
       colors: {
-        tileColortext:"#332C5C",
-        tileSubText:"#5E587A",
-        headerButton:"#4192FF",
+        tileColortext: "#332C5C",
+        tileSubText: "#5E587A",
+        headerButton: "#4192FF",
         navButton: "#0C5BC6",
-        headerText : "#797979",
-        heading:"#242331",
-        middleLine :"#494369",
-        middleBox:"#EBEBF0",
+        headerText: "#797979",
+        heading: "#242331",
+        middleLine: "#494369",
+        middleBox: "#EBEBF0",
 
-        navBarLine:"#8480AE",
-        lightpurple:"#6972C3",
-        lightgreen:"#9BDD7C",
-        texts:"#858585",
+        navBarLine: "#8480AE",
+        lightpurple: "#6972C3",
+        lightgreen: "#9BDD7C",
+        texts: "#858585",
         Card4blue: "#DEE0EF",
         Card3Pink: "#EFDADA",
-       Card2Pink: "#F4ECDD",
-        Card1:"#DDEFE0",
-        lightBlue:"#346BD4",
+        Card2Pink: "#F4ECDD",
+        Card1: "#DDEFE0",
+        lightBlue: "#346BD4",
         lightSilver: "#D9D9D9",
-        greyL:"858585",
+        greyL: "858585",
         carbonGray: "#5B5B5B",
         codGray: "#131313",
         Wewak: "#F28C96",
@@ -582,4 +571,4 @@ custom:
     },
   },
   plugins: [],
-}
+};
