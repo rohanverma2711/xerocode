@@ -114,6 +114,9 @@ module.exports = {
         18: "4.5rem" /* 72px */,
         22.5: "5.625rem" /* 90px */,
         147: "39rem" /* 624px */,
+        161: "40.25rem" /* 644px */,
+
+
         58: "14.5rem" /*232px */,
         45: "11.25rem" /*180px*/,
         578: "578px",
@@ -141,6 +144,7 @@ module.exports = {
         120: "30rem" /* 480px */,
         125: "31.25rem" /* 500px */,
         100: "25rem" /*400*/,
+        30: "7.5rem" /* 120px*/
       },
 
       /** ------------------------------------------------------------
@@ -240,6 +244,7 @@ module.exports = {
         headerButton: "39px",
         normal: "3px",
         blueRegion: "35px",
+
       },
       /** ------------------------------------------------------------
        *
@@ -297,6 +302,9 @@ module.exports = {
         /* In your styles or CSS file */
         custom:
           " 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 25px 40px 0px rgba(0, 0, 0, 0.05)",
+          reviewShadow:" -5px -5px 15px 0px rgba(0, 0, 0, 0.1) inset, 5px 5px 15px 0px rgba(0, 0, 0, 0.1)"
+      
+        
       },
       /** ------------------------------------------------------------
        *
@@ -425,6 +433,10 @@ module.exports = {
        * ------------------------------------------------------------
        */
       colors: {
+        footerColor:"#C6DEFF1A",
+        newsLetter :"#90BFFF",
+        newLetterText:"#242331",
+        
         tileColortext: "#332C5C",
         tileSubText: "#5E587A",
         headerButton: "#4192FF",

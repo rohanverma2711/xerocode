@@ -34,5 +34,24 @@ export const Resources = {
     deploy: `${base}/deploy.png`,
     scale: `${base}/scale.png`,
     tools: `${base}/tools.png`,
+
+
+
+
+    cost: `${base}/cost.png`,
+    preview: `${base}/preview.png`,
+    graph1: `${base}/graph1.svg`,
+    graph2: `${base}/graph2.svg`,
+   
+
+    leftArrow: `${base}/leftArrow.svg`,
+    rightArrow: `${base}/rightArrow.svg`,
+
+    quotation : `${base}/quotation.svg`,
+    iconInfo:`${base}/iconInfo.svg`,
+
+    letter:`${base}/letter.png`,
+
+    
   },
 };
