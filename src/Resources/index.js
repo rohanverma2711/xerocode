@@ -26,7 +26,7 @@ export const Resources = {
     cardsScreen3: `${base}/cardsScreen3.png`,
     cardsScreen2: `${base}/cardsScreen2.svg`,
 
-    rocket: `${base}/rocket.svg`,
+    rocket: `${base}/Rocket.svg`,
     xerocodeLine: `${base}/xerocodeLine.svg`,
 
     cloud: `${base}/cloud.png`,
